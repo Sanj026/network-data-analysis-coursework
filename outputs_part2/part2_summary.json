@@ -1,0 +1,117 @@
+{
+  "selected_area": {
+    "bbox_bng": {
+      "xmin": 430039.75696263876,
+      "ymin": 433304.89150353894,
+      "xmax": 431039.75696263876,
+      "ymax": 434304.89150353894
+    },
+    "bbox_wgs84": {
+      "north": 53.804121030366844,
+      "south": 53.79519184293573,
+      "east": -1.5301724180668679,
+      "west": -1.5454530750767326
+    },
+    "centre_bng": {
+      "x": 430539.75696263876,
+      "y": 433804.89150353894
+    },
+    "area_km2": 1.0,
+    "accidents_in_area": 881
+  },
+  "task_a_metrics": {
+    "diameter_nodes": 27,
+    "average_street_length_m": 63.580427272015854,
+    "node_density_per_km2": 208.0,
+    "intersection_density_per_km2": 188.0,
+    "edge_density_m_per_km2": 22026.147046976526,
+    "average_circuity": 1.0314696932201142,
+    "estimated_nonplanar_crossings_sample": 21
+  },
+  "task_b_metrics": {
+    "morans_i": 0.4101293607955143,
+    "morans_i_pvalue": 0.001,
+    "k_function_min_pvalue": 0.01,
+    "mean_intersection_fraction": 0.21274087467765382
+  },
+  "task_c_metrics": {
+    "initial_seed_nodes": [
+      7275677007,
+      342628235,
+      52351597,
+      9823132
+    ],
+    "initial_feasible_cells_for_42km_loop": 0,
+    "initial_cycle_lengths_m": {
+      "7275677007": [],
+      "342628235": [],
+      "52351597": [],
+      "9823132": []
+    },
+    "refinement": {
+      "area": "8km x 8km around centre",
+      "seed_nodes": [
+        10302853376,
+        375621255,
+        354734667,
+        1600541484
+      ],
+      "feasible_cells_for_42km_loop": 4,
+      "cycle_lengths_m": {
+        "10302853376": [
+          42002.76,
+          41984.61,
+          41981.39
+        ],
+        "375621255": [
+          41979.64,
+          42029.09,
+          42031.07
+        ],
+        "354734667": [
+          42000.03,
+          42002.75,
+          42013.58
+        ],
+        "1600541484": [
+          41988.42,
+          42015.1,
+          41983.24
+        ]
+      }
+    },
+    "results_note": {
+      "initial": {
+        "succeeded_cells": [],
+        "failed_cells": [
+          7275677007,
+          342628235,
+          52351597,
+          9823132
+        ],
+        "notes": {
+          "7275677007": "failed; attempts: base search, shifted seed, subdivided cell",
+          "342628235": "failed; attempts: base search, shifted seed, subdivided cell",
+          "52351597": "failed; attempts: base search, shifted seed, subdivided cell",
+          "9823132": "failed; attempts: base search, shifted seed, subdivided cell"
+        }
+      },
+      "refinement": {
+        "succeeded_cells": [
+          10302853376,
+          375621255,
+          354734667,
+          1600541484
+        ],
+        "failed_cells": [],
+        "notes": {
+          "10302853376": "succeeded; attempts: base search",
+          "375621255": "succeeded; attempts: base search",
+          "354734667": "succeeded; attempts: base search",
+          "1600541484": "succeeded; attempts: base search"
+        }
+      }
+    },
+    "final_loop_count": 4
+  }
+}

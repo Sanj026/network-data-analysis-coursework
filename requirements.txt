@@ -1,0 +1,12 @@
+pandas
+networkx
+matplotlib
+numpy
+scipy
+osmnx
+geopandas
+esda
+libpysal
+pointpats
+pyproj
+spaghetti
